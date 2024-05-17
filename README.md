@@ -7,13 +7,13 @@ This project is a **Real-time chat application** featuring a modern and sleek de
 1. User Authentication
 2. Real-Time Messaging
 3. User Presence Indication
-4. Message History
-5. Search Functionality
-6. Responsive Design
+4. Search Functionality
+5. Responsive Design
 
 **_Demo_**
 
-![Screenshot 2024-05-12 165613](https://github.com/Vishal-R-310/Chat-App/assets/152421463/f1f2042d-66fc-45e7-852b-3b0e59abad98)
+![Screenshot 2024-05-17 225657](https://github.com/Vishal-R-310/Chat-App/assets/152421463/01b3d547-2710-4ddf-947a-9828361d53e2)
+![Screenshot 2024-05-17 225641](https://github.com/Vishal-R-310/Chat-App/assets/152421463/8f171f08-0cfa-4d8d-84f5-8838e1c57044)
 
 
 **Installation**
@@ -34,27 +34,15 @@ Create a .env file in the backend directory and assign values for
     JWT_SECRET=
     NODE_ENV=
 
-and to install all dependencies, run 
-
-`npm install`
-
-_**Frontend Setup**_
-
-Change the directory to frontend
-
-`cd frontend`
-
-* Inside **vite.config.js** file change the port to **3000** and set proxy to the backend port
-
-To install all dependencies, run
-
-`npm install`
-
 **Usage**
 
-1. Start the backend development server using `npm run server`.
-2. Start the frontend development server by changing into the frontend directory and run `npm run dev`.
-3. Open your browser and navigate to `http://localhost:3000`.
+Create the Production build of your Application using the command
+
+`npm run build`
+
+and to run the Application
+
+`npm start`
 
 **Technologies Used**
 
