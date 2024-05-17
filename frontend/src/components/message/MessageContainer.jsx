@@ -19,9 +19,9 @@ const MessageContainer = () => {
 				<NoChatSelected />
 			) : (
 				<>
-					<div className='px-4 py-2 mb-2 bg-gray-600 h-12 flex items-center rounded-tr-lg rounded-bl-lg'>
+					<div className='px-4 py-2 mb-2 bg-slate-600 h-12 flex items-center rounded-tr-3xl rounded-bl-3xl rounded-tl-lg rounded-br-lg'>
 						<span className='label-text font-semibold text-md mr-2'>To:</span>{" "}
-						<span className='font-bold text-lg text-zinc-300'>{selectedConversation.fullName}</span>
+						<span className='font-bold text-lg text-slate-200'>{selectedConversation.fullName}</span>
 					</div>
 					<Messages />
 					<MessageInput />
