@@ -10,39 +10,20 @@ This project is a **Real-time chat application** featuring a modern and sleek de
 4. Search Functionality
 5. Responsive Design
 
-**_Demo_**
+**_User Interface_**
 
 ![Screenshot 2024-05-17 225657](https://github.com/Vishal-R-310/Chat-App/assets/152421463/01b3d547-2710-4ddf-947a-9828361d53e2)
+
 ![Screenshot 2024-05-17 225641](https://github.com/Vishal-R-310/Chat-App/assets/152421463/8f171f08-0cfa-4d8d-84f5-8838e1c57044)
-
-
-**Installation**
-
-To run this application locally, follow these steps:
-
-**_Prerequisites_**
-
-* Node.js and npm 
-* MongoDB Atlas account
 
 **_Backend Setup_**
 
-Create a .env file in the backend directory and assign values for
+.env file
 
     PORT=          
     MONGODB_URI=
     JWT_SECRET=
     NODE_ENV=
-
-**Usage**
-
-Create the Production build of your Application using the command
-
-`npm run build`
-
-and to run the Application
-
-`npm start`
 
 **Technologies Used**
 
